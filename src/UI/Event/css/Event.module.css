@@ -1,0 +1,218 @@
+.newEventMainCardContainer{
+    width: 100%;
+    flex-direction: column;
+}
+.topMenu_eventMainCard{
+    width: 100%;
+}
+.leftPartOfTopMenuEventCard{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.dateInfo{
+    width: 50%;
+    font-size: 14px;
+    justify-content: flex-start;
+    margin-bottom: 10px;
+}
+.date_like_dayOfWeek{
+    margin-right: 5px;
+}
+.date_like_dateOfYear{
+    margin-right: 5px;
+}
+.date_like_Year{
+
+}
+.eventName{
+    width: 95%;
+    font-size: 17px;
+    margin-bottom: 15px;
+    margin-top: -5px;
+}
+.eventNameText{
+
+}
+.creatorBlock{
+    width: 100%;
+}
+.creatorAvatar{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+}
+.mainPart_creatorBlock{
+    width: 100%;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.creatorsInfoPart{
+    width: 50%;
+    margin-top: 3px;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 15px;
+}
+
+.hostedBy_creatorsInfoPart{
+    font-size: 14px;
+}
+.name_creatorsInfoPart{
+    font-size: 18px;
+    margin-bottom: 0;
+}
+.ecostatus_creatorsInfoPart{
+    font-size: 15px;
+}
+.buttonsBlock{
+    width: 20%;
+    height: 100%;
+}
+.iWillGoToEvent{
+    width: 80%;
+    height: 30px;
+    margin-right: 5px;
+}
+.makeEventFavoriteButton_buttonsInEventPreviewBlock{
+    width: 18px;
+    padding: 6px;
+    fill: gray;
+    border-radius: 5px;
+    border: 2px solid lightgray;
+}
+.mainPartOfPage_eventCard{
+    width: 100%;
+    margin-top: 25px;
+    align-items: flex-start;
+}
+.leftPart_eventcard{
+    width: 65%;
+}
+.informationAboutEventOneMoreTimeBlock{
+    width: 30%;
+}
+.whoMadeThisEventCard{
+    justify-content: flex-start;
+    margin-bottom: 25px;
+}
+.timeInfoEvent{
+    width: 95%;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-bottom: 25px;
+}
+.icon_eventMainCard{
+    width: 30px;
+    height: 30px;
+    fill: gray;
+}
+.clock_timeInfoEvent{
+
+}
+.timeText{
+    margin-left: 10px;
+    color: #424242;
+    flex-wrap: wrap;
+    width: 80%;
+    font-size: 20px;
+}
+.timeDayText_timeInfoEvent{
+
+}
+.timeText_timeInfoEvent{
+
+}
+.locationInfoEvent{
+    width: 95%;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-bottom: 25px;
+}
+.container_informationAboutEventOneMoreTimeBlock{
+    width: 95%;
+    margin: 20px auto;
+}
+.buttonsAndHrefs{
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.iWillGoToEvent_buttonsAndHrefs{
+    width: 60%;
+    margin-right: 10px;
+}
+.writeToAutherEvent{
+    font-size: 16px;
+}
+.writeToAutherEvent:hover{
+    color: #6b6b6b;
+    cursor: pointer;
+}
+.mainPhotoBlock{
+    width: 100%;
+}
+.mainPhoto{
+    width: 100%;
+    height: 35vh;
+    background-color: lightgray;
+}
+.mainInfoPart{
+    width: 100%;
+    flex-direction: column;
+}
+.descriptionPart{
+    width: 100%;
+    margin-top: 25px;
+}
+.H_descriptionPart{
+    font-size: 22px;
+    color: #292929;
+}
+.allText_descriptionPart{
+    font-size: 18px;
+    font-family: Rounded_Medium, sans-serif;
+    color: #4c4c4c;
+    word-wrap:break-word;
+}
+.membersBlock{
+    width: 100%;
+    flex-direction: column;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+.HBlock_membersBlock{
+    width: 100%;
+}
+.membersH{
+    font-size: 22px;
+    color: #292929;
+}
+.whatIsItIcon{
+    width: 20px;
+    fill: #616161;
+}
+.amountOfMembersSpan{
+
+}
+.membersLoad{
+    width: 95%;
+    flex-wrap: wrap;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.itemMember{
+    width: 22%;
+    flex-direction: column;
+}
+.memberAvatarImg{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+.memberName{
+    font-size: 18px;
+}
+.memberStatus{
+    font-size: 13px;
+    color: gray;
+}

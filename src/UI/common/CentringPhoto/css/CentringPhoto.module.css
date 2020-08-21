@@ -1,0 +1,8 @@
+.centringPhotoBlock{
+    width: 100%;
+    height: 100%;
+    border-radius: 10%;
+}
+.rounded{
+    border-radius: 50%;
+}

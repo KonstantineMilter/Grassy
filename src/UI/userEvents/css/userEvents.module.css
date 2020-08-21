@@ -1,0 +1,194 @@
+.userEventsContainer{
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-top: -10px;
+}
+.leftPartEvents{
+    width: 70%;
+}
+.searchCreateMenu{
+    width: 100%;
+}
+.container_searchCreateMenu{
+    margin: 10px 5px 10px 5px;
+}
+.leftPart_searchCreateMenu{
+    width: 75%;
+}
+.mainPhotoItemEventsItems{
+    width: 250px;
+    height: 200px;
+}
+.searchIconEvents{
+    width: 16px;
+    fill: #585858;
+}
+.searchForEventsInput{
+    height: 35px;
+    width: 100%;
+    padding: 0 10px 0 10px;
+    font-size: 16px;
+    border: none;
+}
+.searchForEventsInput::placeholder{
+    font-size: 16px;
+    font-weight: 500;
+}
+.createOwnEvent{
+    width: 100%;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    background-color: #009e7c;
+    color: #fff;
+    font-weight: normal;
+}
+.createOwnEventLink{
+    width: 18%;
+}
+.mainContentEvents{
+
+}
+.item_mainContentEvents{
+    margin-top: 15px;
+    width: 100%;
+
+}
+.containerItemEvents{
+    width: 94%;
+    margin: 0 auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.itemEventsPhotoBox{
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+}
+.infoPartEventItem{
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+.firstlineBlockEvents{
+    justify-content: flex-start;
+    margin-bottom: 10px;
+}
+.userName_infoPartEventItem{
+    color: gray;
+    font-size: 18px;
+}
+
+.dateAndTimeOfCreation{
+    font-size: 18px;
+    margin-left: 3px;
+    color: #009e7c;
+    cursor: pointer;
+}
+.mainTextOfEventsItem{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.item_mainContentEvents:first-child{
+    margin-top: 25px;
+}
+.containerOfMainItemEvents{
+    height: 160px;
+    padding: 0 10px 0 10px;
+}
+.mainPhotoEvent{
+    width: 80px;
+    border-radius: 5px;
+}
+.infoAboutEventBlock{
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 15px;
+}
+.creatorsNameEvent{
+    font-size: 16px;
+    color: #777;
+}
+.mainText_infoAboutEventBlock{
+    font-size: 22px;
+    color: #3d3d3d;
+}
+.buttonsInEventPreviewBlock{
+    width: 35%;
+    margin-top: 6px;
+}
+.willGoDuttonBox{
+    width: 75%;
+}
+.iWillGoButton_buttonsInEventPreviewBlock{
+    width: 100%;
+    height: 27px;
+    border: none;
+    background-color: #009e7c;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: normal;
+}
+.makeEventFavoriteButton_buttonsInEventPreviewBlock{
+    width: 27px;
+    height: 27px;
+    background-color: #adacac;
+    fill: #fff;
+    border-radius: 5px;
+    padding: 6px;
+    box-sizing: border-box;
+}
+.timeInfoAboutEvent{
+    text-align: right;
+}
+.dateOfEvent{
+    font-size: 13px;
+}
+.timeOfEvent{
+    font-size: 14px;
+}
+.rightPartEvents{
+    width: 14.5%;
+    position: fixed;
+    margin-left: 42.5%;
+}
+.rightMenuEvents{
+}
+.container_rightMenuEvents{
+    display: flex;
+    flex-direction: column;
+    margin: 15px 0 15px 0;
+}
+.item_rightMenuEvents{
+    width: 90%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding: 0 10px 0 10px;
+    margin-bottom: 10px;
+}
+.item_rightMenuEvents:hover{
+    cursor: pointer;
+}
+.item_rightMenuEventsActive{
+    border-left: 2px #009e7c solid;
+    border-right: 2px #009e7c solid;
+}
+.item_rightMenuEvents:last-child{
+    margin-bottom: 0;
+}
+.textOfRightMenuEvents{
+    font-size: 20px;
+    font-weight: 500;
+}

@@ -1,0 +1,41 @@
+.LeftMenuContainer{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    position: relative;
+}
+.otherLeftMenuContainer{
+    width: 15%;
+    position: fixed;
+}
+.itemOfLeftMenu{
+    width: 100%;
+    padding: 10px 0;
+    border-top: 2px #fff solid;
+    border-bottom: 2px #fff solid;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+.itemCircle{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px #009e7c solid;
+    margin-right: 10px;
+    margin-right: 10px;
+}
+.iconOfCircle{
+    width: 40%;
+    height: 40%;
+    fill: #009e7c;
+}
+.textPart{
+
+}
+.leftMenuMainText{
+    font-size: 18px;
+    color: black;
+    font-weight: 500;
+}

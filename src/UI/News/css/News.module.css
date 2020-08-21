@@ -1,0 +1,509 @@
+.newsContainer{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.leftPartNews{
+    width: 70%;
+}
+.firstMenuNews{
+
+}
+.container_firstMenuNews{
+    margin: 10px 5px 10px 5px;
+}
+.leftPart_firstMenuNews{
+    justify-content: flex-start;
+    width: 80%;
+}
+.userPhotoInRoundNews{
+    width: 40px;
+    border-radius: 50%;
+}
+.makeNewPostInput{
+    height: 35px;
+    border: none;
+    width: 100%;
+    padding: 0 10px 0 10px;
+    color: gray;
+    font-size: 15px;
+}
+.rightPart_firstMenuNews{
+    width: 19%;
+}
+.makeNewPostNews{
+    width: 100px;
+    height: 30px;
+    border: none;
+    background-color: #009e7c;
+    border-radius: 4px;
+    color: #fff;
+    font-weight: normal;
+}
+/*------------------------*/
+.mainContentNews{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+.itemOfNews{
+    width: 100%;
+    height: auto;
+
+}
+.infoLine{
+    width: 100%;
+    padding: 10px 5px;
+    box-sizing: border-box;
+}
+.authorInfoBox{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+.avatarBox{
+    width: 45px;
+    height: 45px;
+    margin-right: 10px;
+}
+.moreInfoBox{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.nameBox{
+
+}
+.userName{
+    font-size: 18px;
+    font-weight: 500;
+}
+.timeOfCreationBox{
+
+}
+.timeOfCreation{
+    font-size: 14px;
+    font-weight: 500;
+    color: #363636;
+}
+.moreActionsWithPostBox{
+    width: 25px;
+    height: 20px;
+    cursor: pointer;
+}
+.moreActionsWithPostBox:hover .moreActionsButton{
+    border: 1px #000 solid;
+}
+.moreActionsWithPostBox:hover .moreActionsText{
+    color: #000;
+}
+.moreActionsButton{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    border: 1px #29292973 solid;
+    border-radius: 3px;
+}
+.moreActionsText{
+    font-size: 16px;
+    color: #29292973;
+    margin-top: -6px;
+}
+
+.mainTextLine{
+    width: 100%;
+    padding: 10px 5px;
+    box-sizing: border-box;
+
+}
+.mainTextBox{
+    width: 100%;
+}
+.mainText{
+    font-size: 20px;
+    color: #222222;
+}
+
+.moreTextLine{
+    width: 100%;
+    padding: 10px 5px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+.moreTextBox{
+    width: 100%;
+}
+.moreText{
+    font-size: 18px;
+    font-weight: 500;
+    color: #222222;
+}
+
+.photosLine{
+    width: 100%;
+    margin-bottom: 10px;
+}
+.photosBox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.amountPhoto1_img{
+    max-width: 100%;
+    min-width: 20%;
+    min-height: 200px;
+    max-height: 450px;
+}
+
+.actionsLine{
+    width: 100%;
+}
+.actionsBox{
+    width: 100%;
+    padding: 5px 5px;
+    box-sizing: border-box;
+    margin-bottom: 5px;
+}
+.actionItem{
+    width: 32%;
+    padding: 10px 0;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin-right: 2%;
+    background-color: #d2d2d2bd;
+    cursor: pointer;
+}
+.actionItem:last-child{
+    margin-right: 0;
+}
+.actionItem:hover{
+    background-color: rgba(195, 195, 195, 0.74);
+}
+.iconBox{
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+.iconOfAction{
+    width: 90%;
+    height: 90%;
+    fill: #4c4c4c;
+}
+.textsOfActionBox{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.textOfAction{
+    font-size: 16px;
+    font-weight: 500;
+    color: #353535;
+}
+.numberOfAction{
+
+}
+.moreTextOfAction{
+
+}
+
+.moreActionsLine{
+    width: 100%;
+}
+.moreActionsBox{
+    width: 100%;
+    border: 2px #4c4c4c8a solid;
+    border-radius: 2px;
+    padding: 15px 5px;
+    box-sizing: border-box;
+}
+.likeBox{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+.avatarsPart{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 95%;
+    margin-bottom: 10px;
+}
+.avatarBoxMoreActions{
+    width: 60px;
+    height: 60px;
+    margin-right: 10px;
+}
+.avatarBoxMoreActions:last-child{
+    margin-right: 0;
+}
+.morePart{
+    width: 100%;
+}
+.andMoreUsersLiked{
+    font-size: 16px;
+    color: #018367;
+    font-weight: 500;
+    text-decoration: underline;
+}
+
+/*------------------------*/
+.item_mainContentNews{
+    margin-bottom: 15px;
+}
+.rightPartNews{
+    width: 15%;
+    position: fixed;
+    margin-left: 42%;
+}
+.rightMenuNews{
+
+}
+.mainContent_rightMenuNews{
+    flex-direction: column;
+    margin: 15px 0 15px 0;
+}
+.item_rightMenuNews{
+    width: 95%;
+    padding-left: 10px;
+    height: 30px;
+    margin-bottom: 10px;
+}
+.item_rightMenuNews:hover{
+    cursor: pointer;
+}
+.item_rightMenuNewsActive{
+    border-right: 2px #009e7c solid;
+    border-left: 2px #009e7c solid;
+}
+.item_rightMenuNews:last-child{
+    margin-bottom: 0;
+}
+.textOfRightMenu{
+    font-size: 18px;
+}
+.newFriendsPost{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0 20px 0;
+}
+.firstLineInfo_newFriendsPost{
+    width: 100%;
+    margin-bottom: 15px;
+    margin-top: 25px;
+}
+.postNews{
+    margin-bottom: 25px;
+}
+.leftPartOfInfoPartNewPost{
+    width: 75%;
+    justify-content: flex-start;
+}
+.leftPartOfInfoPartNewPostDadatak{
+    width: 46%;
+}
+.dadatak_textInfo_leftPartOfInfoPartNewPost{
+    width: 102%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.photoInRound_leftPartOfInfoPartNewPost{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.textInfo_leftPartOfInfoPartNewPost{
+    flex-direction: column;
+    margin-left: 10px;
+}
+.mainBlockOfTextInfoNamePost{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+.usersNameNewsPost{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: normal;
+    color: #333;
+}
+.typeOfPostNewsAfterName{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: normal;
+    color: #888;
+    margin-left: 3px;
+}
+.timeOfMakingPost{
+    font-size: 14px;
+    font-weight: normal;
+    color: gray;
+    width: 100%;
+}
+.whoIsItPostsVersion{
+    width: 15px;
+    fill: gray;
+}
+.usersTextInPost{
+    margin: 0px 10px 15px 10px;
+}
+.usersTextInPost{
+    width: 100%;
+    font-size: 18px;
+}
+.mainTextPostNews{
+    width: 100%;
+}
+.userText_usersTextInPost{
+    font-size: 18px;
+    word-wrap: wrap;
+}
+.userText_usersHeaderInPost{
+    font-size: 20px;
+    font-weight: normal;
+}
+.readMoreMainTextPostNews{
+    color: #009e7c;
+    text-decoration: underline;
+    font-size: 18px;
+    cursor: pointer;
+}
+.usersAdeedPhotoInPost{
+    width: 95%;
+}
+.mainPhotosPostNews{
+    width: 100%;
+    height: auto;
+    padding-bottom: 25px;
+}
+.containerPhotosOfPostNews3{
+    width: 70%;
+    height: 100%;
+    margin: auto;
+}
+.photoOfApostNews{
+    border-radius: 10px;
+    width: 100%;
+}
+.left_mainPhotosPostNews{
+    width: 300px;
+    height: 300px;
+}
+.leftPhoto1AmountOfLeftPhoto1{
+    width: 100%;
+    height: 100%;
+}
+.right_mainPhotosPostNews{
+    flex-direction: column;
+    width: 150px;
+    height: 300px;
+}
+.rightPhoto1AmountOfRightPhoto2{
+    width: 140px;
+    height: 140px;
+}
+.rightPhoto2AmountOfRightPhoto2{
+    width: 140px;
+    height: 140px;
+}
+.containerPhotosOfPostNewsAmount2{
+    width: 95%;
+    margin: 0 auto;
+}
+.leftPhotoAmountOfLeftPhoto1{
+    width: 300px;
+    height: 300px;
+}
+.rightPhotoAmountOfRightPhoto1{
+    width: 300px;
+    height: 300px;
+}
+.containerPhotosOfPostNewsAmount1{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.photoAmount1Photo{
+    min-width: 300px;
+    height: 300px;
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.actionsBlockPostNews{
+    width: 100%;
+}
+
+.actions_actionsBlockPostNews{
+    width: 20%;
+}
+.itemOfActionsPostNews{
+    width: 45%;
+    cursor: pointer;
+}
+.actionIconPostNews{
+    width: 35px;
+    fill: gray;
+}
+.amountOfActionsPostNews{
+    color: gray;
+    font-size: 18px;
+    margin-left: 5px;
+}
+.other_actionsBlockPostNews{
+    width: 25%;
+}
+.sendMessToPostOwnerNews{
+    font-size: 18px;
+    text-decoration: underline;
+}
+.NewAvatar{
+    width: 55%;
+}
+.actionsBlockInNewPost{
+    width: 100%;
+    margin-top: 20px;
+}
+.leftPart_actionsBlockInNewPost{
+    width: 35%;
+}
+.InNewPostBlock{
+    display: flex;
+}
+.amountOfPost{
+    font-size: 18px;
+    margin-left: 5px;
+}
+.morePostsOfAutherButtonNewPost{
+    font-size: 18px;
+    color: gray;
+}
+.actionIconPostNews_repost{
+    width: 25px;
+}
+.itemOfActionsPostNews_repost{
+    width: 40%;
+}
+.morePostsOfAutherButtonNewPost:hover{
+    text-decoration: underline;
+}
+.newAvatarDadatak{
+    width: auto;
+    height: 100%;
+    margin-bottom: 2px;
+    font-size: 15px;
+}

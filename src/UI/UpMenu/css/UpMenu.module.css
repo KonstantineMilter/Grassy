@@ -1,0 +1,91 @@
+.UpMenuContainer{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 55px;
+    background-color: #009e7c;
+}
+.UpMenuContent{
+    height: 100%;
+}
+
+/*----------------------*/
+.logoText{
+    margin: 0;
+    color: #fff;
+    font-size: 26px;
+}
+
+
+
+/*---------------------*/
+.centralPart{
+    height: 100%;
+}
+.globalSearchInputBlock{
+    height: 100%;
+}
+.globalSearch{
+    height: 50%;
+    width: 170px;
+    background-color: #017058;
+    border-radius: 20px;
+    border: none;
+    font-size: 14px;
+    color: #a8c3bb;
+    margin-right: 5px;
+    padding-right: 35px;
+    padding-left: 15px;
+}
+.globalSearch::placeholder{
+    color: #a8c3bb;
+}
+.searchButtonInput{
+    background: none;
+    border: none;
+    height: 50%;
+    width: 30px;
+    margin-left: -40px;
+}
+.searchIcon{
+    width: 15px;
+    fill: #a8c3bb;
+}
+.notifDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    height: 100%;
+    width: 50px;
+    margin-left: 15px;
+}
+.notifIcon{
+    width: 22px;
+    fill: #017058;
+    margin: 0 auto;
+}
+.notificationPushUp{
+    position: fixed;
+    top: 55px;
+    width: 300px;
+    height: auto;
+    background-color: #fff;
+    box-shadow: 12px 10px 50px rgba(0,0,0,0.30), 0 10px 10px rgba(0,0,0,0.22);
+    padding: 15px;
+    z-index: 315;
+}
+.settingsTriangle{
+    position: absolute;
+    margin-top: -24px;
+    left: 19px;
+    width: 0;
+    height: 0;
+    border-bottom: 9px solid #fff;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+}
+
+
+
+/*----------------------*/

@@ -1,0 +1,71 @@
+#galleryAll{
+    width: 100%;
+}
+.firstLineMenuUsersGallery{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.container_firstLineMenuUsersGallery{
+    width: 98%;
+    margin: 0 auto;
+    margin-bottom: 15px;
+}
+.leftPart_firstLineMenuUsersGallery{
+    width: 80%;
+    justify-content: flex-start;
+}
+.avatarBox{
+    width: 60px;
+    height: 60px;
+}
+.infoUserPartGalleryAll{
+    margin-left: 10px;
+}
+.userNameGalleryAl{
+    font-size: 23px;
+
+}
+.userStatusGalleryAll{
+    font-size: 17px;
+    font-weight: 500;
+}
+.rightPart_firstLineMenuUsersGallery{
+    width: 15%;
+}
+.sendMessGalleryAll{
+    width: 85%;
+    height: 30px;
+}
+.mainContentGalleryAll{
+    width: 100%;
+}
+.headersBlockGallery{
+    margin-bottom: 20px;
+}
+.blockNameGalleryAll{
+    font-size: 26px;
+    width: 100%;
+    text-align: center;
+}
+.mainPhotoContentGrassyAll{
+    width: 100%;
+}
+.container_mainPhotoContentGrassyAll{
+    width: 90%;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    justify-content: flex-start;
+}
+.photoItemOfainPhotoBlockGalleryAll{
+    width: 250px;
+    height: 250px;
+    border-radius: 15px;
+    overflow: hidden;
+    margin-bottom: 30px;
+    margin-left: 30px;
+}
+.photoDivGalleryAll{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}

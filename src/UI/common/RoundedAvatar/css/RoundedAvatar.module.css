@@ -1,0 +1,14 @@
+.userAvatar{
+    width: 100%;
+    height: 100%;
+    border-radius: 5%;
+    background-color: #959595;
+}
+.emptyAvatar{
+    width: 100%;
+    height: 100%;
+    background-color: #919090;
+}
+.rounded{
+    border-radius: 50%;
+}
